@@ -1,0 +1,124 @@
+/**
+ * Personal Profile CSS
+ **/
+
+body {
+	font-size: 24px;	
+	/*background-image: url("assets/images/circles-light.png");*/
+	background-color: lightblue;
+}
+
+h3 {
+	text-align: center;
+}
+
+#name {
+	background-color: #4aaaa5;
+	color:white;
+	height: 75px;
+	margin-left: 100px;
+	width: 225px;
+	float:left;
+	padding-top: 20px;
+	font-weight: bold;
+	padding-left: 20px;
+	text-align: center;
+}
+
+
+#navbar {
+	background: lightgray;
+	height: 75px;
+	width: 960px;
+	/*float:left;*/
+	padding-top: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+li {
+
+    float: right;
+    width: 100px;
+    background-color: lightgray;
+}
+
+a {
+    display: inline;
+    padding: 8px;
+}
+
+#mainSection {
+	width: 500px;
+	/*padding-top: 50px;	*/
+	margin-left: 100px;
+	border: 10px;
+	padding-top: 50px;
+}
+
+#aboutMe {
+	float:left;
+}
+
+#connectWithMe {
+	background-color: white;
+	border:10px black;
+	width: 270px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 50px;
+	height: 150px;
+}
+
+#inputForm {
+	padding-left: 50px;
+}
+
+#profilePic {
+	float:left;
+	margin-right: 20px;
+}
+
+.clearfix {
+	clear:both !important;
+	display: block;
+}
+
+#portfolio {
+	float:left;
+	background: #888;
+	color:white;
+	width: 500px;
+}
+
+#contact {
+	background: #666;
+	color: white;
+	width: 500px;
+	padding-top: 50px;
+}
+
+aside {
+	background: #fff;
+	width: 33.33%;
+	height: 200px;
+	border: 1px solid #eee;
+	padding: 20px;
+	float:left;
+	margin-left: 20px;
+}
+
+footer {
+	padding: 20px;
+	background: #ccc;
+	/*float:bottom;*/
+	/*position:fixed bottom;*/
+	text-align: center;
+	width: 960px;
+}
